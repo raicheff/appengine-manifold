@@ -21,7 +21,7 @@ setup(
     ),
     entry_points={
         'console_scripts': (
-            'envinject = scripts.envinject:main',
+            'envinject = appengine_oil.scripts.envinject:main',
         ),
     },
 )
