@@ -1,5 +1,5 @@
 #
-# AppEngine-Oil
+# Flask-AppEngine
 #
 # Copyright (C) 2019 Boris Raicheff
 # All rights reserved

@@ -1,5 +1,5 @@
 #
-# AppEngine-Oil
+# Flask-AppEngine
 #
 # Copyright (C) 2019 Boris Raicheff
 # All rights reserved
@@ -10,7 +10,7 @@ from setuptools import find_packages, setup
 
 
 setup(
-    name='AppEngine-Oil',
+    name='Flask-AppEngine',
     version='0.1',
     packages=find_packages(),
     include_package_data=True,
@@ -21,7 +21,7 @@ setup(
     ),
     entry_points={
         'console_scripts': (
-            'envinject = appengine_oil.scripts.envinject:main',
+            'envinject = flask_appengine.scripts.envinject:main',
         ),
     },
 )
